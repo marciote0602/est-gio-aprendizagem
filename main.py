@@ -1,13 +1,4 @@
-class Cliente:
-    def __init__(self, nome, sexo, idade):
-        self.nome = nome
-        self.sexo = sexo
-        self.idade = idade
+from cliente import Cliente
 
-    def comprar(self):
-        print(f'{self.nome} está comprando')
-        
-        
-    
-class Produto:
-    pass
+c1 = Cliente('Marcelo','M', 29)
+c1.comprar()
