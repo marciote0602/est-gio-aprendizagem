@@ -10,4 +10,6 @@ class Cliente:
         
     
 class Produto:
-    pass
+    def eletronico(self, televisao, notebook):
+        self.televisao = televisao
+        self.notebook = notebook
